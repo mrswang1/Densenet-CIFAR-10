@@ -1,6 +1,6 @@
 # Densenet for CIFAR-10
-This repository is about some implementations of Densenet Architecture for cifar10. \t
-I just use Pytorch to implementate all of these models. \t
+This repository is about some implementations of Densenet Architecture for cifar10.  
+I just use Pytorch to implementate all of these models.  
 
 # Requirements
 python 3.8.8
