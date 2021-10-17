@@ -23,9 +23,8 @@ numpy         1.20.1
   `python test.py`  
   
 ## Result
-![]()
-
-
+/assets/images/loss.png  
+  
 |  lr     | val | test |
 |  ---- | ----  | ----  |
 | 0.001 | 71.39% | 66% |
