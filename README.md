@@ -25,12 +25,12 @@ numpy         1.20.1
 ## Result
 本实验采用的优化器是SGD,通过使用不同的learning rate，得到如下的实验结果。  
 首先得到了在不同learning rate的情况下，迭代步数与损失值之间的关系。  
-由图1我们可以发现当lr=1,发生了梯度爆炸，loss震动幅度非常大，模型无法收敛。
+由图1我们可以发现当lr=1,发生了梯度爆炸，loss震动幅度非常大，模型无法收敛。  
 由图2我们可以发现随着learning rate的减小，损失函数收敛的速度变慢。虽然使用低学习率可以确保我们不会错过任何局部极小值，但也意味着我们将花费更长的时间来进行收敛。
 ![image1](https://github.com/mrswang1/Densenet-CIFAR-10/blob/main/loss2.jpg)
 ![image](https://github.com/mrswang1/Densenet-CIFAR-10/blob/main/loss.jpg) 
 
-本实验采用的评价指标为Accuracy，通过使用不同的learning rate，得到了验证集和测试集的Accuracy。
+本实验采用的评价指标为Accuracy，通过使用不同的learning rate，得到了验证集和测试集的Accuracy。  
 通过表格我们可以发现，当lr=1时，模型的效果非常差。随着lr的降低，验证集的准确率和测试集的准确率之间的差值越来越大。这说明当学习率过低时，模型容易产生过拟合的现象。
 |  lr     | val | test |
 |  ---- | ----  | ----  |
