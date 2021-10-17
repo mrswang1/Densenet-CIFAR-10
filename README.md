@@ -23,7 +23,7 @@ numpy         1.20.1
   `python test.py`  
   
 ## Result
-![](/assets/images/loss.jpg) 
+![](https://github.com/mrswang1/Densenet-CIFAR-10/blob/main/loss.jpg) 
   
 |  lr     | val | test |
 |  ---- | ----  | ----  |
