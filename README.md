@@ -31,6 +31,7 @@ numpy         1.20.1
 ![image](https://github.com/mrswang1/Densenet-CIFAR-10/blob/main/loss.jpg) 
 
 - 本实验采用的评价指标为Accuracy，通过使用不同的learning rate，得到了验证集和测试集的Accuracy。  
+
 |  lr   | val | test |
 |  ---- | ----  | ----  |
 | 0.001 | 71.39% | 66% |
