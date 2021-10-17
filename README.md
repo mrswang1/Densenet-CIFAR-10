@@ -23,7 +23,7 @@ numpy         1.20.1
   `python test.py`  
   
 ## Result
-![](/loss.png) 
+![](/assets/images/loss.jpg) 
   
 |  lr     | val | test |
 |  ---- | ----  | ----  |
